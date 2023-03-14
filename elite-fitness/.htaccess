@@ -1,0 +1,12 @@
+RewriteEngine On
+ErrorDocument 404 /index.php
+
+RewriteRule ^Connexion index.php [L,NC]
+RewriteRule ^Email email.php [L,NC]
+RewriteRule ^Noveau_mdp nouveau_mdp.php [L,NC]
+RewriteRule ^Partenaires ../pages/partenaires.php [L,NC]
+RewriteRule ^Modifier_Partenaires modif_partenaires.php [L,NC]
+RewriteRule ^Structures structures.php [L,NC]
+RewriteRule ^Modifier_Structures modif_structures.php [L,NC]
+RewriteRule ^Utilisateurs utilisateurs.php [L,NC]
+RewriteRule ^Modif_utilisateurs modif_utilisateurs.php [L,NC]
